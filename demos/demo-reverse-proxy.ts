@@ -32,7 +32,7 @@ async function main() {
     debug: false
   })
 
-  const prompt = 'Write a poem about cats.'
+  const prompt = '女朋友和妈妈掉进水里先救谁？'
 
   let res = await oraPromise(api.sendMessage(prompt), {
     text: prompt
